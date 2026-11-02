@@ -1,2 +1,9 @@
 # DA_1_Analisis-Kinerja-Pengiriman-Produk-pada-Bisnis-E-Commerce
 portofolio Analisis Kinerja Pengiriman Produk pada Bisnis E-Commerce
+insight
+Analisis: Hubungan antara Moda Pengiriman dan Keterlambatan Pengiriman
+Analisis ini mengkaji hubungan antara moda pengiriman (Flight, Road, dan Ship) dengan status pengiriman menggunakan Uji Chi-Square Independensi (Chi-Square Test of Independence). Hasil analisis deskriptif menunjukkan bahwa moda pengiriman Flight memiliki tingkat keterlambatan pengiriman tertinggi, yaitu sebesar 60,16%, diikuti oleh Ship sebesar 59,76% dan Road sebesar 58,81%. Namun, perbedaan antara tingkat keterlambatan tertinggi dan terendah relatif kecil, yaitu sekitar 1,35 poin persentase. Uji Chi-Square menghasilkan nilai statistik sebesar 0,7434 dan p-value sebesar 0,6895. Karena nilai p-value lebih besar daripada tingkat signifikansi 0,05, tidak terdapat bukti statistik yang cukup untuk menunjukkan adanya hubungan antara moda pengiriman dan status pengiriman. Wawasan Utama (Key Insight): Moda pengiriman tidak menunjukkan hubungan yang signifikan secara statistik dengan keterlambatan pengiriman dalam dataset ini. Oleh karena itu, moda pengiriman saja mungkin bukan merupakan dasar yang efektif untuk mengidentifikasi pengiriman yang memiliki risiko keterlambatan lebih tinggi.
+Berdasarkan hasil tersebut, rekomendasi yang disarankan yaitu;
+1. Perusahaan sebaiknya tidak langsung memprioritaskan perbaikan hanya berdasarkan moda pengiriman, karena perbedaan tingkat keterlambatannya relatif kecil.
+2. Analisis dapat dilanjutkan dengan memeriksa karakteristik lain, seperti blok gudang dan berat produk.
+3. Perusahaan perlu mempertimbangkan variabel operasional tambahan yang belum tersedia dalam dataset, misalnya waktu pemrosesan pesanan, jadwal keberangkatan, dan estimasi waktu pengiriman.
